@@ -30,14 +30,16 @@ ul {
 
 body {
     font-family: 'Nunito', sans-serif, Arial, sans-serif;
-    background-color: #f6f6f6;
+    background-color: #e1e1f1;
 }
 
 section {
-    height: 300px;
-    background-color: chocolate;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+
+    background-color: chartreuse;
 }
+
 /*
     Header
 */
@@ -82,7 +84,7 @@ nav ul li a:hover {
 
 .hero-banner {
     background: #fff url('../media/code-backgound.jpg') center / cover no-repeat;
-
+    height: calc(100svh - 60px);
 }
 
 /*about*/
@@ -99,7 +101,7 @@ nav ul li a:hover {
 .contact-box {
     height: 100px;
     width: 100px;
-    background-color: blueviolet;
+    background-color: #38b7a4;
     border-radius: 50%;
 }
 
