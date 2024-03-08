@@ -32,6 +32,9 @@ body {
     font-family: 'Nunito', sans-serif, Arial, sans-serif;
 }
 
+section {
+    height: 300px;
+}
 /*
     Header
 */
@@ -39,7 +42,7 @@ body {
 
 header {
     height: 60px;
-    background-color: rgb(56, 75, 183);
+    background-color: #38b7a4;
 }
 
 h1 {
@@ -67,14 +70,21 @@ a {
 nav ul li a:hover {
     color: rgb(199, 199, 237);
 }
-
 /*
 
 /*
     Content
 */
+/*hero banner*/
 
+.hero-banner {
+    background: #fff url('../media/code-backgound.jpg') center / cover no-repeat;
 
+}
+
+/*about*/
+
+/*contact*/
 
 /*
     Footer
