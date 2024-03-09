@@ -97,7 +97,19 @@ nav ul li a:hover {
 
 /*about*/
 
+.about-me p {
+    margin-top: 5px;
+    font-size: 18px;
+}
 
+.title {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.languages {
+    font-size: 40px;
+}
 
 /*contact*/
 
