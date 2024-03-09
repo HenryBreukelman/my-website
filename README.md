@@ -2,7 +2,7 @@
 
 Click [here](https://henrybreukelman.github.io/my-website/) to see my website
 
-Welcome to my personal website repository! This repository hosts the source code for my personal website, where I showcase my projects, share my experiences, and connect with the community.
+Welcome to my personal website. This repository hosts the source code for my personal website where I showcase my projects.
 
 ## About Me
 
