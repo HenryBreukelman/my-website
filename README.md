@@ -1,0 +1,15 @@
+# My Personal Website
+
+Click [here](https://henrybreukelman.github.io/my-website/) to see my website
+
+Welcome to my personal website repository! This repository hosts the source code for my personal website, where I showcase my projects, share my experiences, and connect with the community.
+
+## About Me
+
+I'm Henry Breukelman, a software devoloper in training from Manitoba. I enjoy exploring learning new things, building cool projects, and creating things. 
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
