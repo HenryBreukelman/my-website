@@ -34,8 +34,18 @@ body {
 }
 
 section {
-    margin-bottom: 10px;
     padding: 20px 0;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    background-color: #38b7a4;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    animation: spin 1.5s ease-in-out;
 }
 
 /*
@@ -107,26 +117,32 @@ nav ul li a:hover {
     font-weight: 800;
 }
 
-.languages {
+/*skills*/
+
+.languages i {
     font-size: 40px;
+    color: #000;
+    margin: 10px;
+}
+
+.skills {
+    border-top: 2px solid #38b7a4;
+    border-bottom: 2px solid #38b7a4;
 }
 
 /*contact*/
+
+.contact {
+    margin-bottom: 10px;
+}
 
 .contacts ul li a{
     color: #000;
     font-size: 35px;
 }
 
-.contact-box {
-    height: 80px;
-    width: 80px;
-    background-color: #38b7a4;
-    border-radius: 50%;
-}
-
-.contact-box:hover {
-    animation: spin 1.5s ease-in-out;
+.contacts {
+    margin-top: 10px;
 }
 
 @keyframes spin {
