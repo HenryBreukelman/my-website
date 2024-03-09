@@ -85,6 +85,11 @@ nav ul li a:hover {
 .hero-banner {
     background: #fff url('../media/code-backgound.jpg') center / cover no-repeat;
     height: calc(100svh - 60px);
+    color: #fff;
+}
+
+.hero-banner div h2 {
+    font-size: 40px;
 }
 
 /*about*/
