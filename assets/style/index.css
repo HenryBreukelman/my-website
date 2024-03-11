@@ -48,6 +48,19 @@ section {
     animation: spin 1.5s ease-in-out;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(720deg);
+    }
+}
+
+.transition * {
+    transition: all 0.25s ease-in-out;
+}
+
 /*
     Header
 */
@@ -76,11 +89,10 @@ header a {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.25s ease-in-out;
 }
 
 nav ul li a:hover {
-    color: rgb(199, 199, 237);
+    color: #c7c7ed;
 }
 /*
 
@@ -144,15 +156,6 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(720deg);
-    }
-}
-
 /*
     Footer
 */
@@ -175,7 +178,28 @@ ul li {
     font-size: 20px;
 }
 
+.links i:hover {
+    color: #c7c7ed;
+}
+
 .copyright {
     font-size: 17px;
     color: #fff;
+}
+
+/* MEDIA QUERIES */
+
+
+/* 768px and down */
+@media (max-width: 768px) {
+    .hero-banner div h2 {
+        font-size: 36px;
+    }
+}
+  
+/* 480px and down */
+@media (max-width: 480px) {
+    .hero-banner div h2 {
+        font-size: 34px;
+    }
 }
